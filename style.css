@@ -11,7 +11,9 @@
 /* Responsive CSS for smaller screens */
 @media only screen and (max-width: 600px) {
   .wrapper {
-    padding: 20px; /* Adjust padding for smaller screens */
+    width: 100%; /* Ensure the wrapper takes up the full width */
+    padding: 20px; /* Add padding for better spacing */
+    box-sizing: border-box; /* Ensure padding doesn't increase the width */
   }
 
   .buttons {
@@ -23,6 +25,7 @@
     width: 100%; /* Make buttons full width on smaller screens */
   }
 }
+
 
 
 body {
