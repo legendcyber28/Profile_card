@@ -6,6 +6,24 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+/* Your existing CSS code */
+
+/* Responsive CSS for smaller screens */
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .buttons {
+    flex-direction: column; /* Stack buttons vertically on smaller screens */
+  }
+
+  .buttons .btn {
+    margin: 5px 0; /* Adjust margin for smaller screens */
+    width: 100%; /* Make buttons full width on smaller screens */
+  }
+}
+
 
 body {
   display: flex;
